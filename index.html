@@ -1,0 +1,16 @@
+<!doctype html>
+<html lang="fr">
+  <head>
+    <meta charset="utf-8" />
+    <title>Cinoche a déménagé</title>
+    <meta name="robots" content="noindex" />
+    <!-- Paris Ciné s'appelle maintenant Cinoche : redirection vers la nouvelle adresse, en gardant la fin du lien (#follow=…, #sync=…, page) -->
+    <script>
+      location.replace('/cinoche/' + location.pathname.replace(/^\/paris-cine\/?/, '') + location.search + location.hash);
+    </script>
+    <meta http-equiv="refresh" content="0; url=/cinoche/" />
+  </head>
+  <body>
+    <p>Paris Ciné s’appelle maintenant Cinoche : <a href="/cinoche/">luclucluc.github.io/cinoche</a></p>
+  </body>
+</html>
